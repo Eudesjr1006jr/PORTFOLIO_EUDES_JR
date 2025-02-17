@@ -950,8 +950,70 @@
 					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
 				</div>
 			</div> -->
-
 			<div class="row block-9">
+				<div class="col-md-8">
+					<form action="send_email.php" method="POST" class="bg-light p-4 p-md-5 contact-form">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<input type="text" name="name" class="form-control" placeholder="Your Name" required>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<input type="email" name="email" class="form-control" placeholder="Your Email" required>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="text" name="subject" class="form-control" placeholder="Subject" required>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<textarea name="message" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			
+				<div class="col-md-4 d-flex pl-md-5">
+					<div class="row">
+						<div class="dbox w-100 d-flex">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="fa fa-map-marker"></span>
+							</div>
+							<div class="text">
+								<p><span>Address:</span> Abidjan côte d'ivoire</p>
+							</div>
+						</div>
+						<div class="dbox w-100 d-flex">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="fa fa-phone"></span>
+							</div>
+							<div class="text">
+								<p><span>Phone:</span> <a href="tel://0767215968">+225 0767215968</a></p>
+							</div>
+						</div>
+						<div class="dbox w-100 d-flex">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="fa fa-paper-plane"></span>
+							</div>
+							<div class="text">
+								<p><span>Email:</span> <a href="mailto:eudes.yao@epitech.eu">eudes.yao@epitech.eu</a></p>
+							</div>
+						</div>
+					</div> 
+				</div>
+			</div>
+			
+			<!-- <div class="row block-9">
 				<div class="col-md-8">
 					<form action="#" class="bg-light p-4 p-md-5 contact-form">
 						<div class="row">
@@ -1022,7 +1084,7 @@
 					</div> 
 				</div>
 				<!-- <div id="map" class="map"></div> -->
-			</div>
+			</div> -->
 		</div>
 		</div>
 	</section>
